@@ -18,7 +18,8 @@ class Session:
             Item={
                 'id': self.id,
                 'players': self.players,
-                'timestamp': self.timestamp
+                'timestamp': self.timestamp,
+                'game': 'closethebox'
             }
         )
 
