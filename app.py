@@ -1,6 +1,6 @@
 from chalice import Chalice
-from chalicelib.ctb.controller import extra_routes
-from chalicelib.to.controller import to
+from chalicelib.closethebox.controller import extra_routes
+from chalicelib.twentyone.controller import to
 
 app = Chalice(app_name='aavishkar-games')
 app.experimental_feature_flags.update([
